@@ -54,7 +54,7 @@ public class FichaPais
         StringBuilder sb = new StringBuilder();
         sb.append("Nome: ").append(nome).append("\n");
         sb.append("Continente: ").append(continente).append("\n");
-        sb.append("População: ").append(pop).append("milhoes \n");
+        sb.append("População: ").append(pop).append(" milhões\n");
         return sb.toString();
     }
 }
